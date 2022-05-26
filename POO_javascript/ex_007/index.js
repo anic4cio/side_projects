@@ -8,5 +8,7 @@ let firstGarage = {sport, custom, trail, naked, street};
 
 let secondGarage = {sport, custom, trail, naked, street};
 
+let thirdGarage = {sport, custom, trail, naked, street};
+
 console.log(firstGarage);
 console.log(secondGarage);
