@@ -1,19 +1,29 @@
-function initials(name) {
-    let nameArr = name.split(' ');
-    var initialsName = [];
-    for(namesNumber = nameArr.length-1 ; namesNumber >= 0 ; namesNumber--) {
-        if (namesNumber == nameArr.length-1) {
-            initialsName.push(nameArr[namesNumber].toUpperCase());
-        } else if(namesNumber >= 0) {
-            let firstLetter = nameArr[namesNumber];
-            initialsName.push(firstLetter.charAt(0));
+function initials(fullname) {
+    let nameArr = fullname.split(' ');
+    var nameInitials = [];
+
+    for(namesIndex = nameArr.length-1; namesIndex >= 0; namesIndex--) {
+        if(namesIndex == nameArr.length-1) {
+            nameInitials.push(nameArr[namesIndex].toUpperCase());
+        } else if(namesIndex >= 0) {
+            let firstLetter = nameArr[namesIndex];
+            nameInitials.push(firstLetter[0]);
         }
     }
-    return initialsName
+
+    let upperLastName = `${nameInitials.shift()}, `
+    nameInitials.reverse()
+
+    nameInitials.forEach(letter => {
+        upperLastName += `${letter}. `
+    })
+
+    return upperLastName.toUpperCase()
 }
 
 
-console.log(initials('Isaac Larrubia Ferreira Pontes'))
-console.log(initials('John Ronald Reuel Tolkien'))
-console.log(initials('Christopher James Paolini'))
-console.log(initials('Suzanne Marie Collins'))
+console.log(initials('Isaac Larrubia Ferreira Pontes')) // PONTES, I. L. F.
+console.log(initials('John Ronald Reuel Tolkien')) // TOLKIEN, J. R. R.
+console.log(initials('christopher james paolini')) // PAOLINI, C. J.
+console.log(initials('Suzanne Marie Collins')) // COLLINS, S. M.
+console.log(initials('Vinicius da Mata Anicácio'))  // ANICÁCIO, V. D. M.
