@@ -2,8 +2,8 @@
 
 ### It's just exercises
 
-* **30DesafiosJavascript**
+* **30 Javascript Challenges**
 
-* **curso-docker**
+* **Docker**
 
-* **POO-javascript** 
+* **Object Oriented Javascript** 
