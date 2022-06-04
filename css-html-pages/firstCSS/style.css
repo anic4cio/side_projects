@@ -1,0 +1,19 @@
+body {
+    background-color: #2a3c4e;
+    color: whitesmoke;
+}
+
+div > h2 {
+    border: 2px solid;
+    color: black;
+    background-color: #f1c40f;
+    border-color: black;
+}
+
+#days-of-week > h3{
+    color: #f1c40f;
+}
+
+#astronomy-class {
+    color: #e74c3c;
+}
