@@ -1,0 +1,29 @@
+body {
+    background: rgb(29, 242, 217);
+    font: normal 20pt Yu Gothic Light;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+section {
+    background: beige;
+    border-radius: 5px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.41);
+    
+}
+div {
+    text-align: left;
+    padding: 5px;
+}
+
+footer {
+    color: rgb(0, 98, 255);
+    text-align: center;
+    font-style: normal;
+}
