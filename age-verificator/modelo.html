@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age verificator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Title</h1>
+    </header>
+    <section>
+        <div>
+            <p>Year of birth
+              <input type="number" name="txtyear" id="txtyear" min="0"> 
+            </p>
+            <p>Gender:
+                <input type="radio" name="radgender" id="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="radgender" id="female">
+                <label for="female">Female</label>
+            </p>
+            <p>
+                <input type="button" value="Confirm" onclick="confirm()">
+            </p>
+        </div>
+        <div id="res">
+            Insert the information to see the result.
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Anicácio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
