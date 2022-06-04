@@ -1,6 +1,6 @@
 # *Side Projects*
 
-### AUre just learning exercises
+### It's just learning exercises
 
 * **30 Javascript Challenges**
 
