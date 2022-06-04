@@ -1,0 +1,31 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;;
+}
+
+.post-container {
+    background-color: #fffafa;
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 0px auto;    
+}
+
+.post-container .post {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 100px 0px 100px;
+    padding-bottom: 15px;
+}
+
+.post-container .post-content {
+    margin: 10px;
+    border: 10px;
+}
+
+.date {
+    color: #008080;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
