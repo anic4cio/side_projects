@@ -8,5 +8,5 @@ function carStats(brand: string, rims?: number) {
 
 // funcão com passagem de parâmetro opcional
 
-console.log(carStats('Porsche', 20)); // Porsche vehicle brand with 20' rims size
-console.log(carStats('Alfa Romeo')); // Brand of vehicle: Alfa Romeo
+console.log(carStats('Porsche', 20)); // Porsche vehicle brand with 20' rims size.
+console.log(carStats('Alfa Romeo')); // Brand of vehicle: Alfa Romeo.
