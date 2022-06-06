@@ -1,9 +1,9 @@
 # *Side Projects*
 
-### It's just exercises
+### It's just learning exercises
 
-* **30DesafiosJavascript**
+* **30 Javascript Challenges**
 
-* **curso-docker**
+* **Docker**
 
-* **POO-javascript** 
+* **Object Oriented Javascript** 
