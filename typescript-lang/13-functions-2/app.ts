@@ -1,8 +1,8 @@
 function carStats(brand: string, rims?: number) {
     if(rims) {
-        console.log(`${brand} vehicle brand with ${rims}' rims size`);
+        console.log(`${brand} vehicle brand with ${rims}' rims size.`);
     } else {
-        console.log(`Brand of vehicle: ${brand}`);
+        console.log(`Brand of vehicle: ${brand}.`);
     }
 }
 
