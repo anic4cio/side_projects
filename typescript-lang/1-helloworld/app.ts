@@ -4,4 +4,4 @@ function helloWorld(person: string, lastname: string) {
 
 let person = 'Vinicius';
 let lastname = 'Anicácio';
-console.log(helloWorld(person, lastname));
+console.log(helloWorld(person, lastname)); // Say hello world, Vincius Anicácio!
