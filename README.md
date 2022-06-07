@@ -1,6 +1,6 @@
 # *Side Projects*
 
-### It's just learning exercises
+## It's just learning exercises
 
 * **30 Javascript Challenges**
 * **Docker**
