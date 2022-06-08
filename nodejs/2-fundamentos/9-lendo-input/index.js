@@ -1,3 +1,4 @@
+// configuração de input e output
 const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout,
