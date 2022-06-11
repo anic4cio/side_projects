@@ -12,3 +12,15 @@ console.log(_.sortedUniq(arr2))
 // no meu computador é preciso usar o sudo antes do npm
 
 // a tag -g parece não ser recomendada pelo bash, é necessário usar --location=global
+
+// npx cowsay "Hello, Vinicius!"
+/*
+ __________________
+< Hello, Vinicius! >
+ ------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+*/
