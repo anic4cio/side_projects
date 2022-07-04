@@ -1,6 +1,0 @@
-Trail 
-BigTrail 
-Street 
-Speed 
-Tourer 
-Cross 

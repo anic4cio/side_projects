@@ -1,3 +1,6 @@
+# Exercises directories to ignore
+ignore-this-dir/
+
 # Logs
 logs
 *.log
