@@ -65,7 +65,7 @@ function createAccount() {
                 console.log(err)
             }
         )
-        console.log(chalk.bgGreen('Congrats! You account has been created sucessfuly!'))
+        console.log(chalk.bgGreen('Congrats! You account has been created sucessfully!'))
         operation()
 
     }).catch((err) => console.log(err))
