@@ -1,0 +1,14 @@
+{
+  "name": "sunday-node",
+  "version": "1.0.0",
+  "description": "improvind node in one weekend",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
