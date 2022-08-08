@@ -1,5 +1,6 @@
 # Exercises directories to ignore
 ignore-this-dir/
+.env
 
 # Logs
 logs
