@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS Testing</title>
+</head>
+<style>
+    body {
+        background-color: #000;
+    }
+    * {
+        color: #e0a100
+    }
+</style>
+<body>
+    <h1>LOOK AT THE BRIGHT SIDE, THE SUN IS BRIGHTING FOR EVERYONE!</h1>
+    <div class="container">
+        <div class="content">
+            <% if (users.length > 0) { %> <% users.forEach(user => { %>
+
+                <h3 class="title"><%= user.firstName %> <%= user.lastName %></h3>
+
+                <p><%= user.email %></p>
+            <% }) %> <% } else { %>
+                <p>Doesn't has users to show.</p>
+            <% } %>
+        </div>
+    </div>
+</body>
+</html>
