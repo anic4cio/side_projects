@@ -1,16 +1,17 @@
 function migratoryBirds(arr = []) {
     let birdsQty = 0;
-    arr.forEach((element) => {
-        if (arr.filter(item => item == element).length > birdsQty && item >= element) {
+    let sortedArr = arr.sort();
+    for(let element = 0; element >= arr.length; element++) {
+
+        if (sortedArr.filter(item => item == element).length > birdsQty) {
             birdsQty = element;
         }
-    });
-
+    };
     return birdsQty
 }
 
+// Está falhando em metade dos testes
+
 const birds = [6, 6, 6, 1, 4, 4, 4, 5, 3];
 
-// console.log(migratoryBirds(birds));
-// console.log(birds.filter(item => item == 6));
-
+console.log(migratoryBirds(birds));
