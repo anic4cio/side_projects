@@ -3,6 +3,7 @@
 
 const username = 'anic4cio'
 
+// Esse link abre um json contendo todas as informações do perfil no github
 fetch(`https://api.github.com/users/${username}`, {
     method: 'GET',
     headers: {Accept: 'application/vnd.github.v3+json'}
