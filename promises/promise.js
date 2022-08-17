@@ -29,10 +29,10 @@ const secondPromise = new Promise((resolve, reject) => {
 
 secondPromise
     .then((data) => {
-        return data.toLowerCase()
+        return data.toUpperCase()
     })
     .then((lowerString) => { // é possível encadiar vários thens
-        console.log(lowerString) // user vinicius successfully found (caixa baixa)
+        console.log(lowerString) // USER VINICIUS SUCCESSFULLY FOUND. (caixa alta)
     });
 // -----------------------------------------------------------------
 
