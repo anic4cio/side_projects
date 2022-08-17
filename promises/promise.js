@@ -15,7 +15,7 @@ firstPromise.then((data) => {
 });
 // -----------------------------------------------------------------
 
-// then chaining (Encadeamento de then)
+// then chaining (Encadeando vários then)
 
 const secondPromise = new Promise((resolve, reject) => {
     const name = 'Vinicius'
@@ -29,10 +29,11 @@ const secondPromise = new Promise((resolve, reject) => {
 
 secondPromise
     .then((data) => {
-        return data.toUpperCase()
+        return (data.toUpperCase())
     })
-    .then((lowerString) => { // é possível encadiar vários thens
-        console.log(lowerString) // USER VINICIUS SUCCESSFULLY FOUND. (caixa alta)
+    .then((data) => { // é possível encadiar vários thens
+        console.log(data.replace(/I/g, '1')) // USER V1N1C1US SUCCESSFULLY FOUND.
+        // /<string>/g === global replace
     });
 // -----------------------------------------------------------------
 
@@ -73,6 +74,9 @@ const promiseThree = new Promise((resolve, reject) => {
 
 const resolveAll = Promise.all([promiseOne, promiseTwo, promiseThree]).then((data) => {
     console.log(data);
+    data.forEach(element => {
+        console.log(element)
+    });
 })
 // -----------------------------------------------------------------
 
@@ -84,16 +88,17 @@ const promiseFour = new Promise((resolve, reject) => {
     }, 2000)
 });
 
-const promiseFive = new Promise((resolve, reject) => { // Winner
+const promiseFive = new Promise((resolve, reject) => {
     resolve('Promise Five ok!')
 });
 
 const promiseSix = new Promise((resolve, reject) => {
-    resolve('Promise Three ok!')
+    resolve('Promise Six ok!')
 });
 
-const resolveAllRace = Promise.race([promiseFour, promiseFive, promiseSix]).then((data) => {
+const resolveAllRace = Promise.race([promiseFour, promiseSix, promiseFive]).then((data) => {
     console.log(data);
 })
+// A ordem de excecução é definida pela ordem do array
 // -----------------------------------------------------------------
 
