@@ -1,0 +1,645 @@
+{
+    "type": "view.rocketchat.action.done",
+    "data": {
+      "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020",
+      "actionId": "22871d82-5028-4ab8-9629-5a03003ce4e0",
+      "blockId": "6d3bcd91-bb18-4945-8d53-3fe5c81d4827",
+      "user": {
+        "id": "ahpoQX3KRf72gFYRJ",
+        "username": "crishonfi",
+        "emails": [
+          {
+            "address": "crishonfi@gmail.com",
+            "verified": true
+          }
+        ],
+        "type": "user",
+        "isEnabled": true,
+        "name": "Cristina Gonçalves Honfi",
+        "roles": [
+          "user"
+        ],
+        "status": "online",
+        "statusConnection": "online",
+        "utcOffset": -3,
+        "createdAt": "2022-08-04T22:02:01.214Z",
+        "updatedAt": "2022-08-14T00:34:34.732Z",
+        "lastLoginAt": "2022-08-14T00:34:34.709Z"
+      },
+      "room": {
+        "id": "EM69QGokigPkZ26Z7",
+        "displayName": "cas-435243-nub1",
+        "slugifiedName": "cas-435243-nub1",
+        "messageCount": 6,
+        "createdAt": "2022-08-12T13:25:37.794Z",
+        "updatedAt": "2022-08-12T13:25:38.784Z",
+        "lastModifiedAt": "2022-08-12T13:25:38.521Z",
+        "customFields": {
+          "processId": "6780dc09-dfc9-4e12-9c50-8c9552b08158"
+        },
+        "isDefault": false,
+        "isReadOnly": false,
+        "displaySystemMessages": true,
+        "type": "p",
+        "creator": {
+          "id": "aQz62rQprAZRvxy2h",
+          "username": "lais.bot",
+          "type": "app",
+          "isEnabled": true,
+          "name": "lais",
+          "roles": [
+            "app"
+          ],
+          "status": "online",
+          "statusConnection": "undefined",
+          "createdAt": "2022-06-03T20:47:47.223Z",
+          "updatedAt": "2022-08-13T23:23:19.217Z",
+          "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020"
+        },
+        "_unmappedProperties_": {
+          "usersCount": 3,
+          "lastMessage": {
+            "_id": "vttXhNnF4tMGf4Rho",
+            "rid": "EM69QGokigPkZ26Z7",
+            "u": {
+              "_id": "aQz62rQprAZRvxy2h",
+              "username": "lais.bot",
+              "name": "lais"
+            },
+            "msg": "📅  Agendamento",
+            "ts": "2022-08-12T13:25:38.521Z",
+            "_updatedAt": "2022-08-12T13:25:38.569Z",
+            "groupable": true,
+            "parseUrls": true,
+            "urls": [
+  
+            ],
+            "mentions": [
+  
+            ],
+            "channels": [
+  
+            ],
+            "md": [
+              {
+                "type": "PARAGRAPH",
+                "value": [
+                  {
+                    "type": "PLAIN_TEXT",
+                    "value": "📅  Agendamento"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "triggerId": "n44tPfoYK94PhOD3h",
+      "value": "2022-10-20",
+      "message": {
+        "id": "fcTMLt46ZW9y7ntJb",
+        "threadId": "vttXhNnF4tMGf4Rho",
+        "parseUrls": true,
+        "text": "Agendamento do Casamento",
+        "createdAt": "2022-08-12T13:25:38.713Z",
+        "updatedAt": "2022-08-14T00:35:05.621Z",
+        "editedAt": "2022-08-14T00:35:05.617Z",
+        "groupable": false,
+        "blocks": [
+          {
+            "blockId": "7aef750f-2a97-4406-b04e-0316a79fb797",
+            "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020",
+            "type": "section",
+            "text": {
+              "type": "mrkdwn",
+              "text": "Escolha o tipo de casamento:",
+              "emoji": true
+            }
+          },
+          {
+            "blockId": "516325e0-b44c-4a98-a42c-93ad9bcea480",
+            "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020",
+            "type": "actions",
+            "elements": [
+              {
+                "type": "button",
+                "actionId": "50655690-8bf3-4724-917b-de253a6a72b4",
+                "style": "primary",
+                "text": {
+                  "type": "plain_text",
+                  "text": "Casamento Religioso",
+                  "emoji": true
+                }
+              },
+              {
+                "type": "button",
+                "actionId": "35bce5c9-7e63-4adf-8c8a-3aa3457dbd76",
+                "style": "primary",
+                "text": {
+                  "type": "plain_text",
+                  "text": "Casamento Civil",
+                  "emoji": true
+                }
+              }
+            ]
+          },
+          {
+            "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020",
+            "blockId": "652a6d98-6e56-4607-abbe-53625aeebd7f",
+            "type": "section",
+            "text": {
+              "type": "mrkdwn",
+              "text": "Selecione um tipo de casamento civil:\n- **Externo** é feito fora do Cartório\n- **Interno Clássico** é feito na sala clássica do Cartório Colorado\n- **Interno Rio** é feito na nova sala rio, também do Cartório Colorado\n",
+              "emoji": true
+            }
+          },
+          {
+            "blockId": "dbe648fd-23ed-4a91-81c9-d27e4131cd70",
+            "type": "actions",
+            "elements": [
+              {
+                "type": "static_select",
+                "placeholder": {
+                  "type": "plain_text",
+                  "text": "Escolha o tipo de casamento",
+                  "emoji": true
+                },
+                "initialValue": "32043748",
+                "options": [
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "Externo - R$ 1.123,32",
+                      "emoji": true
+                    },
+                    "value": "643771"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "Interno Clássico - R$ 214,73",
+                      "emoji": true
+                    },
+                    "value": "32041544"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "Interno Rio - R$ 214,73",
+                      "emoji": true
+                    },
+                    "value": "32043748"
+                  }
+                ],
+                "actionId": "26db7215-1d59-4979-9746-d8800c4c25ab"
+              }
+            ]
+          },
+          {
+            "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020",
+            "blockId": "07d1d9e4-d392-4e35-b758-c284185d1d88",
+            "type": "section",
+            "text": {
+              "type": "mrkdwn",
+              "text": "Escola um celebrante:",
+              "emoji": true
+            }
+          },
+          {
+            "blockId": "b5a051ca-ca73-463b-9a5a-f0c436ad67fa",
+            "type": "actions",
+            "elements": [
+              {
+                "type": "static_select",
+                "placeholder": {
+                  "type": "plain_text",
+                  "text": "Escolha um celebrante",
+                  "emoji": true
+                },
+                "initialValue": "4640993",
+                "options": [
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "Sem preferência",
+                      "emoji": true
+                    },
+                    "value": "0"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "Juíza de Paz Cristina A. Lopes",
+                      "emoji": true
+                    },
+                    "value": "2603943"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "Juíza de Paz Nina S. Porto",
+                      "emoji": true
+                    },
+                    "value": "2009434"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "Juiz de Paz Germano P. Mancuso",
+                      "emoji": true
+                    },
+                    "value": "4640993"
+                  }
+                ],
+                "actionId": "ce91dd84-e0d2-4d46-aa98-ec021cd24485"
+              }
+            ]
+          },
+          {
+            "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020",
+            "blockId": "59c2d902-8d3e-4dfc-bf5b-6182a62b2382",
+            "type": "section",
+            "text": {
+              "type": "mrkdwn",
+              "text": "Escolha o mês/ano:",
+              "emoji": true
+            }
+          },
+          {
+            "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020",
+            "blockId": "864bbc9f-d4a8-4c6a-a021-56bddd780ba5",
+            "type": "actions",
+            "elements": [
+              {
+                "type": "static_select",
+                "placeholder": {
+                  "type": "plain_text",
+                  "text": "Escolha o mês/ano",
+                  "emoji": true
+                },
+                "initialValue": "2022-11",
+                "options": [
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "agosto de 2022",
+                      "emoji": true
+                    },
+                    "value": "2022-08"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "setembro de 2022",
+                      "emoji": true
+                    },
+                    "value": "2022-09"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "outubro de 2022",
+                      "emoji": true
+                    },
+                    "value": "2022-10"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "novembro de 2022",
+                      "emoji": true
+                    },
+                    "value": "2022-11"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "dezembro de 2022",
+                      "emoji": true
+                    },
+                    "value": "2022-12"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "janeiro de 2023",
+                      "emoji": true
+                    },
+                    "value": "2023-01"
+                  }
+                ],
+                "actionId": "2d52bf13-036f-4fd4-82a1-c0a4845e4656"
+              }
+            ]
+          },
+          {
+            "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020",
+            "blockId": "72e06c19-43f8-419d-9bec-5f975b260ca6",
+            "type": "section",
+            "text": {
+              "type": "mrkdwn",
+              "text": "Escolha o dia:",
+              "emoji": true
+            }
+          },
+          {
+            "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020",
+            "blockId": "cc2cec41-5261-4752-9191-cd02511f9e6a",
+            "type": "actions",
+            "elements": [
+              {
+                "type": "static_select",
+                "placeholder": {
+                  "type": "plain_text",
+                  "text": "Escolha o dia",
+                  "emoji": true
+                },
+                "initialValue": "2022-10-21",
+                "options": [
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "terça-feira, 01 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-01"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "quinta-feira, 03 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-03"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "sexta-feira, 04 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-04"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "segunda-feira, 07 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-07"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "terça-feira, 08 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-08"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "quarta-feira, 09 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-09"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "quinta-feira, 10 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-10"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "sexta-feira, 11 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-11"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "segunda-feira, 14 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-14"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "quarta-feira, 16 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-16"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "quinta-feira, 17 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-17"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "sexta-feira, 18 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-18"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "segunda-feira, 21 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-21"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "terça-feira, 22 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-22"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "quarta-feira, 23 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-23"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "quinta-feira, 24 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-24"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "sexta-feira, 25 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-25"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "segunda-feira, 28 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-28"
+                  },
+                  {
+                    "text": {
+                      "type": "plain_text",
+                      "text": "terça-feira, 29 de novembro",
+                      "emoji": true
+                    },
+                    "value": "2022-11-29"
+                  }
+                ],
+                "actionId": "22871d82-5028-4ab8-9629-5a03003ce4e0"
+              }
+            ]
+          }
+        ],
+        "room": {
+          "id": "EM69QGokigPkZ26Z7",
+          "displayName": "cas-435243-nub1",
+          "slugifiedName": "cas-435243-nub1",
+          "messageCount": 6,
+          "createdAt": "2022-08-12T13:25:37.794Z",
+          "updatedAt": "2022-08-12T13:25:38.784Z",
+          "lastModifiedAt": "2022-08-12T13:25:38.521Z",
+          "customFields": {
+            "processId": "6780dc09-dfc9-4e12-9c50-8c9552b08158"
+          },
+          "isDefault": false,
+          "isReadOnly": false,
+          "displaySystemMessages": true,
+          "type": "p",
+          "creator": {
+            "id": "aQz62rQprAZRvxy2h",
+            "username": "lais.bot",
+            "type": "app",
+            "isEnabled": true,
+            "name": "lais",
+            "roles": [
+              "app"
+            ],
+            "status": "online",
+            "statusConnection": "undefined",
+            "createdAt": "2022-06-03T20:47:47.223Z",
+            "updatedAt": "2022-08-13T23:23:19.217Z",
+            "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020"
+          },
+          "_unmappedProperties_": {
+            "usersCount": 3,
+            "lastMessage": {
+              "_id": "vttXhNnF4tMGf4Rho",
+              "rid": "EM69QGokigPkZ26Z7",
+              "u": {
+                "_id": "aQz62rQprAZRvxy2h",
+                "username": "lais.bot",
+                "name": "lais"
+              },
+              "msg": "📅  Agendamento",
+              "ts": "2022-08-12T13:25:38.521Z",
+              "_updatedAt": "2022-08-12T13:25:38.569Z",
+              "groupable": true,
+              "parseUrls": true,
+              "urls": [
+  
+              ],
+              "mentions": [
+  
+              ],
+              "channels": [
+  
+              ],
+              "md": [
+                {
+                  "type": "PARAGRAPH",
+                  "value": [
+                    {
+                      "type": "PLAIN_TEXT",
+                      "value": "📅  Agendamento"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "editor": {
+          "id": "aQz62rQprAZRvxy2h",
+          "username": "lais.bot",
+          "type": "app",
+          "isEnabled": true,
+          "name": "lais",
+          "roles": [
+            "app"
+          ],
+          "status": "online",
+          "statusConnection": "undefined",
+          "createdAt": "2022-06-03T20:47:47.223Z",
+          "updatedAt": "2022-08-13T23:23:19.217Z",
+          "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020"
+        },
+        "sender": {
+          "id": "aQz62rQprAZRvxy2h",
+          "username": "lais.bot",
+          "type": "app",
+          "isEnabled": true,
+          "name": "lais",
+          "roles": [
+            "app"
+          ],
+          "status": "online",
+          "statusConnection": "undefined",
+          "createdAt": "2022-06-03T20:47:47.223Z",
+          "updatedAt": "2022-08-13T23:23:19.217Z",
+          "appId": "de2cf863-0b1a-4d1c-871e-8e9f1c5bd020"
+        },
+        "_unmappedProperties_": {
+          "urls": [
+  
+          ],
+          "mentions": [
+  
+          ],
+          "channels": [
+  
+          ],
+          "md": [
+            {
+              "type": "PARAGRAPH",
+              "value": [
+                {
+                  "type": "PLAIN_TEXT",
+                  "value": "Agendamento do Casamento"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "container": {
+        "type": "message",
+        "id": "fcTMLt46ZW9y7ntJb"
+      },
+      "processId": "6780dc09-dfc9-4e12-9c50-8c9552b08158",
+      "publicUri": "https://app.cartoriocolorado.com.br"
+    }
+  }
