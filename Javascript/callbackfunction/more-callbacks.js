@@ -27,8 +27,7 @@ const user = loginUser(
     '1234',
     (returnOfFunction) => {
         getUserElements(returnOfFunction.email, (elements) => {
-            console.log(elements);
-            getElementsDetails(element[0], (elementDetails) => {
+            getElementsDetails(elements[0], (elementDetails) => {
                 console.log({elementDetails});
             });
             console.log({elements});
