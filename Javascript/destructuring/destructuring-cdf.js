@@ -30,7 +30,7 @@ const bike = {
         rim: 'carbon',
         bearing: {
             component: 'aluminium',
-            type: 'ball',
+            type: 'Spherical roller',
         }
     }
 }
@@ -51,3 +51,18 @@ const {brand, wheel: {tire}, ...rest} = bike;
 console.log(brand); // Caloi
 console.log(tire); // continental
 console.log(rest); // {}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// com esses exemplos, atribuir um valor de um objeto usando desestructuring parece verboso demais
+// mas em situações mais complexas, com dezenas de chaves aninhadas, pode fazer sentido
+let bearingType = ({wheel: {bearing: {type}}}) => {
+    return type;
+};
+
+const typeOfBearing = bearingType(bike);
+console.log(`Bearing type: ${typeOfBearing}`);
+
+// método simples para uma atibuição simples
+console.log(`Tipo de rolamento: ${bike.wheel.bearing.type}`);
+
