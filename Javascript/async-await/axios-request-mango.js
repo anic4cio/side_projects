@@ -21,4 +21,3 @@ axios.get(gitHubApi)
     const res = await axios.get(gitHubApi)
     console.log(res);
 })();
-
