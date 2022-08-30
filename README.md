@@ -4,6 +4,8 @@
 
 * **30 Javascript Challenges**
 * **Docker Course from Cod3r**
-* **Typescript**
+* **HackerRank - Passed codes**
+* **Typescript - Learning codes**
+* **Javascript - Learning codes**
+* **NodeJs - Learning codes**
 * **Object Oriented Javascript**
-* **Node.js**
