@@ -1,3 +1,8 @@
+# *MY JAVASCRIPT ROADMAP*
+
+## List of Javascript concepts that I have to leaning
+## Percentage number is how much I know about that
+
 ### Pré-requisitos
 * Lógica de Programação
 * Cliente e servidor
@@ -102,14 +107,34 @@
 * getter e setter
 
 ### Classes importantes
+* Array (push, pup, join, concat, sort, slice, map, filter, reduce)
+* Date (setDate, getDate, setDay, getDay, setMonth, getMonth)
+* String (chatAt, indexOf, slice, split, trim, toLowerCase)
+* Intl (formatar datas, números)
+* RegExp (Expressões regulares)
 
+### Programação Assíncrona
+* setTimeout
+* setInterval
+* callback
+* promise
+* async await
+* Event Loop
 
+### Módulos
+* CJS
+* ESM
+* import
+* export
+* default export
+* named export
 
-
-
-
-
-# *MY JAVASCRIPT ROADMAP*
-
-## List of Javascript concepts that I have to leaning
-## Percentage number is how much I know about that
+### Próximos Passos
+* DOM
+* Storage
+* eslint
+* prettier
+* webpack
+* typescript
+* NodeJS
+* ReactJS / VueJS / Angular
