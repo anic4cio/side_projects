@@ -78,7 +78,7 @@
 * Unários (delete, typeof)
 * Agrupamento ()
 * Precedência de operadores
-* Tabala verdade
+* Tabela verdade
 
 ### Functions
 * Declaração
