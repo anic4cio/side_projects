@@ -43,7 +43,7 @@
 * Array
 * Object
 * Boolean 
-* NUmber
+* Number
 * String
 
 ### Estruturas de repetição
