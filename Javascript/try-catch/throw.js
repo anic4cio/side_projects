@@ -1,6 +1,6 @@
 'use strict'
 
-// var num
+var num
 
 try {
     num = 10
