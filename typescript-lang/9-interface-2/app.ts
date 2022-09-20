@@ -4,7 +4,7 @@ interface config {
 }
 
 function createPerson(config: config): {name: string; age: number} {
-    let person = { name: 'unknow', age: 0}
+    let person = { name: 'unknown', age: 0}
 
     if(config.name) {
         person.name = config.name;
