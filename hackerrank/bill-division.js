@@ -1,23 +1,18 @@
 function bonAppetit(bill, k, b) {
-    let anaArr = bill.slice()
-    anaArr.splice(k, 1)
+    bill.splice(k, 1)
 
-    let anaPayment = anaArr.reduce((tot, value) => {
-        return tot + value
-    })
-
-    let refund = b - (anaPayment / 2) 
+    let anaPayment = bill.reduce((tot, val) => tot + val);
+    let refund = b - (anaPayment / 2);
 
     if(refund != 0) {
-        console.log(refund)
-    } else {
-        console.log('Bon Appetit')
-    }    
+        console.log(refund);
+    } else console.log('Bon Appetit');
 };
 
 
 let conta = [3, 10, 2, 9];
 let notEat = 1;
 let total = 7;
+// let total = 12;
 
-console.log(bonAppetit(conta, notEat, total));
+bonAppetit(conta, notEat, total);
