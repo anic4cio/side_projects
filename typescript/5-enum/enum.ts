@@ -17,7 +17,6 @@ console.log(employeeStatus); // 0
 console.log(ContractStatus.Temp); // 1
 console.log(ContractStatus.Apprentice); // 2
 
-
 enum motorcycleRanking {
   BMWGS = 10,
   Tracer,
@@ -35,7 +34,6 @@ let toDirtyTrack: motorcycleRanking = motorcycleRanking.WR450;
 
 console.log(toDirtyTrack); // 15
 console.log(motorcycleRanking[toDirtyTrack]); // WR450
-
 
 
 
