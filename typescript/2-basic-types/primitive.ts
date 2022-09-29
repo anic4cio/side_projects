@@ -2,7 +2,7 @@ const car: string = "Lamborghini Gallardo";
 const wheels: number = 4;
 const sunRoof: boolean = true;
 const array: any | string[] = [];
-const unknown: any = 'anything here 69';
+const unknown: unknown = 'anything here 69';
 
 console.log(car); // 'Lamborghini Gallardo'
 console.log(wheels); // 4
