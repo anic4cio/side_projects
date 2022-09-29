@@ -5,13 +5,7 @@ randomValue = true;
 console.log(randomValue);  // true
 
 randomValue = 'Mateo';
-
-try {
-  console.log(randomValue.toUpperCase()) // MATEO
-  // (Compile) error: Property 'toUpperCase' does not exist on type 'unknown'
-} catch (err) {
-  console.error(err);
-}
+console.log((randomValue as string).toUpperCase()) // MATEO
 
 let allowedStringMethods = 'Any string';
 allowedStringMethods = allowedStringMethods.toUpperCase();
