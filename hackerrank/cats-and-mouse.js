@@ -1,23 +1,12 @@
 const catAndMouse = (x, y, z) => {
-  const catA = Math.abs(x);
-  const catB = Math.abs(y)
-  const mouseC = Math.abs(z);
 
-  if(Math.abs(mouseC - catB) === Math.abs(mouseC - catA)) {
-    console.log('Mouse C');
+  let catA = x > z ? x - z : z - x;
+  let catB = y > z ? y - z : z - y;
 
-  } else if(mouseC - catB > mouseC - catA) {
-
-    console.log('Cat B')
-  } else {
-    
-    console.log('Cat A')
-  }
+  if(catA < catB) return 'Cat A'
+  if(catA > catB) return 'Cat B'
+  if(catA === catB) return 'Mouse C'
 }
 
-
-const catA = 1;
-const catB = 2;
-const mouseC = 3;
-
-catAndMouse(catA, catB, mouseC);
+console.log(catAndMouse(1, 2, 3));
+console.log(catAndMouse(1, 3, 2));
