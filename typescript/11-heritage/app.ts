@@ -21,7 +21,7 @@ class Engineer extends Developer {
     }
 }
 
-let rafa = new Engineer('Rafaela', 27, 'worker');
+// let rafa = new Engineer('Rafaela', 27, 'worker');
 
 console.log(rafa); // Engineer {  age: 27, name: 'Rafaela', type: "worker"}
 console.log(rafa.sayMyName()); // The developer name is Rafaela and is 27 years old.
