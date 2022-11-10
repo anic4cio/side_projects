@@ -1,138 +1,846 @@
-body {
+* {
+  color: #FFFFFF
+}
+
+html {
   background-color: #0A0A0A;
 }
-
-.artigos {
-  margin-top: 400px;
+.ajuda-cartrio-colorado-ajuda-cartrio-colorado {
+  width: 100%;
+  height: 100%;
+  overflow: 'auto';
+  position: absolute;
+  align-items: flex-start;
+  background-color: #0A0A0A; 
 }
 
-.main-banner {
-  position: absolute;
+.ajuda-cartrio-colorado-rectangle350 {
+  top: 88px;
+  left: -267px;
   width: 1920px;
   height: 300px;
-  left: calc(50% - 1920px/2 - 6px);
-  top: 88px;  
-  background-color: #161616;  
-}
-
-.row-kb-header {
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 24px;
   position: absolute;
-  width: 792px;
-  height: 116px;
-  left: calc(50% - 792px/2 - 212px);
-  top: 180px;
+  background-color: #161616;
 }
-
-.question {
-  /* Olá, como podemos ajudar você? */
-  width: 792px;
-  height: 36px;
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 112%;
-  letter-spacing: -1px;
-  color: #FFFFFF;
-}
-
-.widget-search {
-  /* Auto layout */
+.ajuda-cartrio-colorado-simbolo-colorado {
+  top: 88px;
+  left: 1027.09130859375px;
+  width: 652.908203125px;
+  height: 300px;
   display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
   flex-direction: row;
-  align-items: center;
-  padding: 16px 170px 16px 16px;
-  gap: 8px;
-
-  width: 504px;
-  height: 56px;
-
-  /* Gray/Medium */
-  background: #5F5F5F;
-  border-radius: 32px;
-
-  /* Inside auto layout */
-  /* flex: none;
-  order: 1;
-  flex-grow: 0; */
-
+  justify-content: flex-start;
+  background-color: transparent;
 }
-
-.input-mv-new {
-  /* Busque sua pergunta ou palavra chave aqui */
+.ajuda-cartrio-colorado-group128 img {
+  width: 150%;
+  height: 300px;
+}
+.ajuda-cartrio-colorado-rectangle424 {
+  top: 0px;
+  left: 64.908203125px;
+  width: 588px;
+  height: 300px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-vector {
+  top: 229.47369384765625px;
+  left: 0px;
   width: 306px;
-  height: 20px;
-  font-family: 'Encode Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  /* identical to box height */
-  display: flex;
-  align-items: center;
-
-  /* Gray / White */
-  color: #FFFFFF;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  height: 71px;
+  position: absolute;
 }
-
-.widget-search {
-  /* search */
-
+.ajuda-cartrio-colorado-vector01 {
+  top: 0px;
+  left: 132.63180541992188px;
+  width: 122px;
+  height: 141px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-vector02 {
+  top: 0px;
+  left: 0px;
+  width: 214px;
+  height: 300px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-vector1 {
+  top: 749px;
+  left: 112px;
+  width: 1216px;
+  height: 0px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-frame188 {
+  top: 180px;
+  left: 130px;
+  width: 792px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.ajuda-cartrio-colorado-text {
+  color: rgba(255, 255, 255, 1);
+  width: 792px;
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  line-height: 112.00000047683716%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-frame59 {
+  width: 504px;
+  display: flex;
+  padding: 16px 170px 16px 16px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 32px;
+  background-color: var(--dl-color-gray-medium);
+}
+.ajuda-cartrio-colorado-search {
   width: 24px;
   height: 24px;
-
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-
-  /* Vector */
-
-  position: absolute;
-  left: 12.5%;
-  right: 20.83%;
-  top: 12.5%;
-  bottom: 20.83%;
-
-  /* Gray / White */
-  border: 2px solid #FFFFFF;  
+  position: relative;
+  margin-right: 8px;
 }
-
-.input-mv-new {  
-  /* Busque sua pergunta ou palavra chave aqui */
-  
-  width: 306px;
-  height: 20px;
-  
-  font-family: 'Encode Sans';
-  font-style: normal;
-  font-weight: 400;
+.ajuda-cartrio-colorado-text02 {
+  color: var(--dl-color-gray-white);
+  height: auto;
   font-size: 16px;
-  line-height: 20px;
-  /* identical to box height */
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Encode Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-text04 {
+  top: 904px;
+  left: 115px;
+  color: var(--dl-color-gray-white);
+  width: 381px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Encode Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.ajuda-cartrio-colorado-text19 {
+  top: 904px;
+  left: 528px;
+  color: var(--dl-color-gray-white);
+  width: 384px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Encode Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.ajuda-cartrio-colorado-text34 {
+  top: 904px;
+  left: 944px;
+  color: var(--dl-color-gray-white);
+  width: 384px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Encode Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.ajuda-cartrio-colorado-text49 {
+  top: 829px;
+  left: 528px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: 'Bold';
+  text-align: left;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  line-height: 112.00000047683716%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-text51 {
+  top: 829px;
+  left: 115px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  line-height: 112.00000047683716%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-text53 {
+  top: 829px;
+  left: 944px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  line-height: 112.00000047683716%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-group142 {
+  top: 1247px;
+  left: -240px;
+  width: 1920px;
+  height: 129px;
   display: flex;
-  align-items: center;
-  
-  /* Gray / White */
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(22, 22, 22, 1);
+}
+.ajuda-cartrio-colorado-rectangle400 {
+  top: 127px;
+  left: 352px;
+  width: 1216px;
+  height: 2px;
+  opacity: 0.20;
+  position: absolute;
+  border-color: transparent;
+}
+.ajuda-cartrio-colorado-text55 {
+  top: 57px;
+  left: 1313px;
+  color: var(--dl-color-gray-white);
+  height: auto;
+  opacity: 0.70;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: right;
+  font-family: Encode Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-camadax00201 {
+  top: 56px;
+  left: 354px;
+  width: 40.758941650390625px;
+  height: 43.902435302734375px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.ajuda-cartrio-colorado-frame1181325952368 {
+  top: 0px;
+  left: 0px;
+  width: 40.758941650390625px;
+  height: 43.902435302734375px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.ajuda-cartrio-colorado-group {
+  top: 0px;
+  left: 0px;
+  width: 40.758941650390625px;
+  height: 43.902435302734375px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.ajuda-cartrio-colorado-vector03 {
+  top: 33.602256774902344px;
+  left: 0px;
+  width: 41px;
+  height: 10px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-vector04 {
+  top: 0px;
+  left: 17.67120361328125px;
+  width: 16px;
+  height: 21px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-vector05 {
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 44px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-frame35 {
+  top: 57px;
+  left: 1473px;
+  width: 95px;
+  height: 18px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-text57 {
+  top: 56px;
+  left: 421px;
+  color: rgba(255, 255, 255, 1);
+  width: 660px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Encode Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-text58 {
+  font-weight: 700;
+}
+.ajuda-cartrio-colorado-frame62 {
+  top: 20px;
+  left: 112.0001220703125px;
+  width: 363px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border-color: transparent;
+}
+.ajuda-cartrio-colorado-camadax002011 {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 40px;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.ajuda-cartrio-colorado-frame11813259523681 {
+  width: 130;
+  height: 40px;
+}
+.ajuda-cartrio-colorado-group1 img {
+  top: 0px;
+  left: 0px;
+  width: 152;
+  height: 40px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-style: none;
+  border-width: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.ajuda-cartrio-colorado-group141 {
+  top: 0px;
+  left: 0px;
+  width: 40.75893783569336px;
+  height: 40.00000762939453px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.ajuda-cartrio-colorado-vector06 {
+  top: 30.61541748046875px;
+  left: 0px;
+  width: 41px;
+  height: 9px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-vector07 {
+  top: 0px;
+  left: 17.6712646484375px;
+  width: 16px;
+  height: 19px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-vector08 {
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 40px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-vector09 {
+  top: 20.168777465820312px;
+  left: 46.55316162109375px;
+  width: 104px;
+  height: 20px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-vector10 {
+  top: 2.667449951171875px;
+  left: 48.29840087890625px;
+  width: 67px;
+  height: 11px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-line2 {
+  background-color: #5F5F5F;
+  width: 40px;
+  position: relative;
+  margin: 1px 26px 19px 1px;
+  border: 1px solid transparent;
+  transform: rotate(90deg);  
+}
+.ajuda-cartrio-colorado-text63 {
+  width: 160px;
   color: #FFFFFF;
-  
-  
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  text-align: left;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+  font-family: 'Sora', sans-serif;
+}
+.ajuda-cartrio-colorado-frame183 {
+  top: 26px;
+  left: 1060px;
+  width: 268px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.ajuda-cartrio-colorado-frame182 {
+  display: flex;
+  padding: 8px 24px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 16px;
+  border-radius: 100px;
+  justify-content: center;
+}
+.ajuda-cartrio-colorado-text65 {
+  color: rgba(83, 193, 183, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: 'Regular';
+  text-align: center;
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-frame52 {
+  display: flex;
+  padding: 8px 24px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  border-radius: 100px;
+  justify-content: center;
+  background-color: var(--dl-color-linear-azul);
+  background-image: linear-gradient(180deg, rgba(83, 193, 183, 1) 0%, rgba(0, 151, 188, 1) 100%);
+}
+.ajuda-cartrio-colorado-text67 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: 'Regular';
+  text-align: center;
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-frame193 {
+  top: 468px;
+  left: 112px;
+  width: 1216px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.ajuda-cartrio-colorado-frame189 {
+  display: flex;
+  padding: 48px 24px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 32px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-dark3);
+}
+.ajuda-cartrio-colorado-frame184 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.ajuda-cartrio-colorado-rectangle420 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 24px;
+}
+.ajuda-cartrio-colorado-rectangle418 {
+  top: 0px;
+  left: 0px;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 8px;
+}
+.ajuda-cartrio-colorado-bookopencheck {
+  top: 12px;
+  left: 12px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-text69 {
+  color: var(--dl-color-gray-white);
+  width: 232px;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Encode Sans;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-frame190 {
+  display: flex;
+  padding: 48px 24px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 32px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-dark3);
+}
+.ajuda-cartrio-colorado-frame185 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.ajuda-cartrio-colorado-rectangle4201 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 24px;
+}
+.ajuda-cartrio-colorado-rectangle4181 {
+  top: 0px;
+  left: 0px;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 8px;
+}
+.ajuda-cartrio-colorado-sortdesc {
+  top: 12px;
+  left: 12px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-text71 {
+  color: var(--dl-color-gray-white);
+  width: 232px;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Encode Sans;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-frame191 {
+  display: flex;
+  padding: 48px 24px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 32px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-dark3);
+}
+.ajuda-cartrio-colorado-frame186 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.ajuda-cartrio-colorado-rectangle4202 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 24px;
+}
+.ajuda-cartrio-colorado-rectangle4182 {
+  top: 0px;
+  left: 0px;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 8px;
+}
+.ajuda-cartrio-colorado-listordered {
+  top: 12px;
+  left: 12px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-text73 {
+  color: var(--dl-color-gray-white);
+  width: 232px;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Encode Sans;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ajuda-cartrio-colorado-frame192 {
+  display: flex;
+  padding: 48px 24px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-dark3);
+}
+.ajuda-cartrio-colorado-frame187 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.ajuda-cartrio-colorado-rectangle4203 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 24px;
+}
+.ajuda-cartrio-colorado-rectangle4183 {
+  top: 0px;
+  left: 0px;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 8px;
+}
+.ajuda-cartrio-colorado-globe {
+  top: 12px;
+  left: 12px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.ajuda-cartrio-colorado-text75 {
+  color: var(--dl-color-gray-white);
+  width: 232px;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Encode Sans;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
 }
