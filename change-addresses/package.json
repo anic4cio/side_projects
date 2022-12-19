@@ -1,0 +1,17 @@
+{
+  "name": "change-addresses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "change-address.js",
+  "scripts": {
+    "start": "node -r dotenv/config ./change-address"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.2.1",
+    "bluebird": "^3.7.2",
+    "dotenv": "^16.0.3"
+  }
+}
