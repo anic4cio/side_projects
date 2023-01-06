@@ -1,15 +1,22 @@
 {
-  "dependencies": {
-    "chalk": "^4.1.2",
-    "inquirer": "^8.2.4"
-  },
   "name": "project-bank-account",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts",
+    "build": "tsc",
     "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^8.2.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0"
   },
   "keywords": [],
   "author": "Vinicius Anicacio @anic4cio",
