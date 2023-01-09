@@ -76,8 +76,6 @@ const createAccount = () => {
       { name: 'accountName', message: 'Enter your new account name:' }
    ).then(answer => {
       const accountName: string = answer['accountName']
-      console.info(accountName)
-
       if (!fs.existsSync('accounts')) {
          fs.mkdirSync('accounts')
       }
