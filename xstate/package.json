@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "xstate": "^4.33.1"
+    "xstate": "^5.9.1"
   }
 }
